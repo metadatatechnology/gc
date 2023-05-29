@@ -8,10 +8,12 @@ date = "2023-05-29T00:00:00+00:00"
             <div class="container-fluid">
                 <div class="row" style="padding-top:10px; padding-bottom:50px;">
                     <div class="col-md-12">
-                        <h1>Schedule</h1>
+                        <h1>Timeline</h1>
                         Last update: 29 May 2023
                     <pre class="mermaid">
+                           
 gantt
+    %%{init: { "theme": "default", "gantt":{"fontSize":"14","sectionFontSize":"16","numberSectionStyles":"2"} }}%% 
     #title SDMX Global Conference Organisation Schedule
     dateFormat  DD-MM-YYYY
     axisFormat  %d-%b-%Y
@@ -51,6 +53,16 @@ section Hackathon
 	Final date of submission : milestone, 3-6, 31-08-2023, 0d
 	Review of submission: 3-7, 01-08-2023, 60d
 	Announcement winner: milestone, 3-8, 02-10-2023, 0d
+    
+section Hosting and logistics
+    Venue preparation: 4-1,after 2-0, 150d
+    Pre-production: 4-2, after 2-0, 150d
+    Venue and production readiness: milestone, 4-3, after 4-1 4-2, 0d
+    
+section Capacity building
+    Capacity building preparation: 5-1, 03-07-2023, 108d
+    Capacity building readiness: milestone, 5-2, after 5-1, 0d
+    
 section Organizing committee
 	Kickoff : done, milestone, 1-0, 03-03-2023, 0d
     Meeting 1: done, milestone, 1-2, 23-03-2023, 0d
